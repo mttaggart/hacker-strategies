@@ -1,0 +1,36 @@
+var _hyperapp = require("hyperapp");
+require("hyperapp-fx");
+const API_URL = "http://localhost:3000/api/";
+// const FetchCard = (state) => [
+// state,
+// Http({
+// url: API_URL + "red",
+// action: NewCard,
+// })
+// ]
+// const NewCard = (state, res) => ({
+// ...state,
+// currentCard: res.text()
+// })
+const CardMock = state => ({
+  ...state,
+  currentCard: "TEST"
+});
+const CardDiv = currentCard => _hyperapp.h("div", {
+  className: "card-div"
+}, [_hyperapp.h("p", {}, _hyperapp.text(currentCard))]);
+const CardButton = (cardType, label, className) => _hyperapp.h("button", {
+  type: "button",
+  className: `card-button ${className}`,
+  value: cardType,
+  onClick: CardMock
+}, _hyperapp.text(label));
+_hyperapp.app({
+  init: {
+    currentCard: "Choose Red or Blue"
+  },
+  view: ({currentCard}) => _hyperapp.h("main", {}, [_hyperapp.h("h1", {
+    className: "headline"
+  }, _hyperapp.text("Hacker Strategies!")), CardDiv(currentCard), CardButton("red", "Red Team", "red-team"), CardButton("blue", "Blue Team", "blue-team")]),
+  node: document.getElementById("app")
+});

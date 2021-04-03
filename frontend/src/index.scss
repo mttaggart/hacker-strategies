@@ -1,0 +1,27 @@
+body {
+    background: black;
+    color: white;
+    font-size: 20px;
+}
+
+button.card-button {
+    margin: 10px;
+    color: white;
+    border: none;
+    font-size: 1.2em;
+    transition: background 0.3s;
+    &.blue-team {
+        background: blue;
+        &:hover {
+            color: blue;
+            background: white;
+        }
+    }
+    &.red-team {
+        background: red;
+        &:hover {
+            color: red;
+            background: white;;
+        }
+    }
+}

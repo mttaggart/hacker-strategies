@@ -1,0 +1,12 @@
+{
+  "env": {
+    "node": true,
+    "jest": true
+  },
+  "globals": {
+    "Promise": true
+  },
+  "rules": {
+    "compat/compat": "off"
+  }
+}

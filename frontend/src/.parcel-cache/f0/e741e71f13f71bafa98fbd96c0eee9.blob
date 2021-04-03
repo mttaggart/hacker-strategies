@@ -1,0 +1,17 @@
+var _hyperapp = require("hyperapp");
+const RedCard = () => {};
+const BlueCard = () => {};
+const CardButton = (label, clickEvent) => _hyperapp.h("button", {
+  type: "button",
+  className: "card-button",
+  onClick: clickEvent
+}, [_hyperapp.text(label)]);
+_hyperapp.app({
+  init: {
+    cards: []
+  },
+  view: ({cards}) => _hyperapp.h("main", {}, [_hyperapp.h("h1", {
+    className: "headline"
+  }, _hyperapp.text("Hacker Strategies!")), CardButton("red", RedCard)]),
+  node: document.getElementById("app")
+});
