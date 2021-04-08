@@ -725,7 +725,7 @@ var app = ({init = EMPTY_OBJ, view, subscriptions, dispatch = id, node}) => {
   return ((dispatch = dispatch((action, props) => typeof action === "function" ? dispatch(action(state, props)) : isArray(action) ? typeof action[0] === "function" ? dispatch(action[0], action[1]) : action.slice(1).map(fx => fx && fx !== true && fx[0](dispatch, fx[1]), setState(action[0])) : action == null ? patchSubs(subs, EMPTY_ARR, dispatch = id) : setState(action)))(init), dispatch);
 };
 
-},{"@parcel/transformer-js/lib/esmodule-helpers.js":"5QYwZ"}],"5QYwZ":[function(require,module,exports) {
+},{"@parcel/transformer-js/lib/esmodule-helpers.js":"1Ikc8"}],"1Ikc8":[function(require,module,exports) {
 "use strict";
 
 exports.interopDefault = function (a) {
