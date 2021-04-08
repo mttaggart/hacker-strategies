@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+    nginx:
+        build:
+            context: ./frontend
+        ports: 
+            - "8000:80"
+    api:
+        build:
+            context: ./api
+        ports: 
+            - "3000:3000"
