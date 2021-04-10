@@ -1,2 +1,5 @@
 *.swp
 api/node_modules/
+frontend/src/node_modules/
+frontend/src/.parcel-cache/
+frontend/.cache/

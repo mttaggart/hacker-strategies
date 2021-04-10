@@ -1,8 +1,8 @@
 const express = require("express");
 const fs = require("fs");
 const PORT = 3000; 
-const RED_FILE = "../red.txt";
-const BLUE_FILE = "../blue.txt";
+const RED_FILE = "./red.txt";
+const BLUE_FILE = "./blue.txt";
 const RED = "red";
 const BLUE = "blue";
 
