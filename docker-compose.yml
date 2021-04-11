@@ -4,7 +4,7 @@ services:
         build:
             context: ./frontend
         ports: 
-            - "8000:80"
+            - "443:443"
         secrets:
             - hs_ssl_cert
             - hs_ssl_key
