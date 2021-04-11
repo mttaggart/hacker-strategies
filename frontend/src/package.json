@@ -1,7 +1,7 @@
 {
   "name": "src",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "../dist/index.html",
   "license": "MIT",
   "dependencies": {
     "hyperapp": "^2.0.12",

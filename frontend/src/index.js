@@ -1,7 +1,7 @@
 import { h, text, app } from "hyperapp";
 import { Http } from "hyperapp-fx";
 
-const API_URL = "http://localhost:3000/api/";
+const API_URL = "/api/";
 
 const FetchCard = (state, e) => [
     state,
