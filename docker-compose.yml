@@ -14,7 +14,7 @@ services:
         build:
             context: ./api
         networks:
-            - hs_net
+            - hs-net
 networks:
     hs-net:
         driver: overlay
