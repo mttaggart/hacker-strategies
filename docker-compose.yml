@@ -5,6 +5,7 @@ services:
             context: ./frontend
         ports: 
             - "443:443"
+            - "80:80"
         secrets:
             - hs_ssl_cert
             - hs_ssl_key
