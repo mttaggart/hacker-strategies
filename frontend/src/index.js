@@ -49,7 +49,8 @@ const Footer = () => (
             text("Oblique Strategies"))
         ]),
         h("p", {}, [
-            text("Made with 💙 by "),
+            h("a", {href: "https://github.com/mttaggart/hacker-strategies"}, text("Made")),
+            text(" with 💙 by "),
             h("a", {href: "https://taggart-tech.com"}, text("Taggart Tech"))
         ]),
     ])
