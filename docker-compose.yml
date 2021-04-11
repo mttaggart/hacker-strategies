@@ -22,6 +22,6 @@ networks:
 secrets:
     hs_ssl_cert:
         external: true
-    hs_website_ssl_key:
+    hs_ssl_key:
         external: true
 
