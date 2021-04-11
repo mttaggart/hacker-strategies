@@ -10,3 +10,5 @@ sudo letsencrypt renew
 docker secret create hs_ssl_cert /etc/letsencrypt/live/taggart-tech.com/fullchain.pem
 docker secret create hs_ssl_key /etc/letsencrypt/live/taggart-tech.com/privkey.pem
 
+./deploy.sh
+
