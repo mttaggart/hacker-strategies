@@ -5,8 +5,23 @@ services:
             context: ./frontend
         ports: 
             - "8000:80"
+        secrets:
+            - hs_ssl_cert
+            - hs_ssl_key
+        networks:
+            - hs-net
     api:
         build:
             context: ./api
-        ports: 
-            - "3000:3000"
+        networks:
+            - hs_net
+networks:
+    hs-net:
+        driver: overlay
+
+secrets:
+    hs_ssl_cert:
+        external: true
+    hs_website_ssl_key:
+        external: true
+
