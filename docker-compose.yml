@@ -1,6 +1,7 @@
 version: "3.9"
 services:
     nginx:
+        image: hacker-strategies_nginx:latest
         build:
             context: ./frontend
         ports: 
@@ -12,6 +13,7 @@ services:
         networks:
             - hs-net
     api:
+        image: hacker-strategies_api:latest
         build:
             context: ./api
         networks:
