@@ -1,4 +1,3 @@
-import { Card } from "../types";
 import CardButton from "./CardButton";
 
 interface ButtonContainerProps {
