@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "SportsNight";
+  src: url("./assets/SFSportsNight.woff") format("woff");
+}
+
+body {
+  background: black;
+  color: white;
+  font-size: 20px;
+  font-family:'Courier New', Courier, monospace
+}
+
+h1.headline {
+  text-align: center;
+  font-family: "SportsNight", Courier, monospace;
+  font-size: 2.5em;
+  font-weight: 500;
+  color: #bf0af9;
+}
+
+div.card-container {
+  p {
+      text-align: center;
+      font-weight: 800;
+  }
+}
+
+div.button-container {
+  text-align: center;
+}
+
+footer {
+  p {
+      text-align: center;
+      font-style: italic;
+      font-size: 0.9em;
+  }
+
+  img {
+    width: 150px;
+  }
+}
+
+button.card-button {
+  margin: 10px;
+  color: white;
+  border: none;
+  font-size: 1.2em;
+  font-weight: 800;
+  padding: 5px;
+  min-width: 15vw;
+  transition: background 0.3s;
+  &:hover {
+      cursor: pointer;
+  }
+  &.blue-team {
+      background: blue;
+      &:hover {
+          color: blue;
+          background: white;
+      }
+  }
+  &.red-team {
+      background: red;
+      &:hover {
+          color: red;
+          background: white;;
+      }
+  }
+}
