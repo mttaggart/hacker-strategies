@@ -53,14 +53,14 @@ button.card-button {
   &:hover {
       cursor: pointer;
   }
-  &.blue-team {
+  &.blue {
       background: blue;
       &:hover {
           color: blue;
           background: white;
       }
   }
-  &.red-team {
+  &.red {
       background: red;
       &:hover {
           color: red;

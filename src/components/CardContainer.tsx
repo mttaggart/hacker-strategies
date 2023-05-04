@@ -1,11 +1,12 @@
-interface CardContainerProps {
-    currentCard: String
-}
+import {Card} from "../types"
 
+interface CardContainerProps {
+    currentCard: Card
+}
 
 const CardContainer = ({currentCard}: CardContainerProps) => (
     <div className="card-container">
-        <p>{currentCard}</p>
+        <p>{currentCard.text}</p>
     </div>
 );
 
