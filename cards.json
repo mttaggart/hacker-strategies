@@ -1,0 +1,158 @@
+[
+    {
+        "type": "red",
+        "text": "Use a bigger list"
+    },
+    {
+        "type": "red",
+        "text": "What haven't you enumerated?"
+    },
+    {
+        "type": "red",
+        "text": "What seems irrelevant?"
+    },
+    {
+        "type": "red",
+        "text": "Fuzz something"
+    },
+    {
+        "type": "red",
+        "text": "What do you own?"
+    },
+    {
+        "type": "red",
+        "text": "What's running?"
+    },
+    {
+        "type": "red",
+        "text": "How could they have been lazy?"
+    },
+    {
+        "type": "red",
+        "text": "Write the tool you need"
+    },
+    {
+        "type": "red",
+        "text": "Google something"
+    },
+    {
+        "type": "red",
+        "text": "Take the hard time"
+    },
+    {
+        "type": "red",
+        "text": "What have you left behind?"
+    },
+    {
+        "type": "red",
+        "text": "Reverse direction"
+    },
+    {
+        "type": "red",
+        "text": "Discover, don't invent"
+    },
+    {
+        "type": "red",
+        "text": "Invent"
+    },
+    {
+        "type": "red",
+        "text": "Take a break!"
+    },
+    {
+        "type": "red",
+        "text": "You can't be invisible. You can be camouflaged"
+    },
+    {
+        "type": "red",
+        "text": "If an alert triggers and no one sees it, did it happen?"
+    },
+    {
+        "type": "red",
+        "text": "Simplify your attack chain"
+    },
+    {
+        "type": "red",
+        "text": "You only need one"
+    },
+    {
+        "type": "red",
+        "text": "Begin with the end in mind"
+    },
+    {
+        "type": "red",
+        "text": "Graphs, not lines"
+    },
+    {
+        "type": "red",
+        "text": "Is this chess, or is this go? (the board game, not the language)"
+    },
+    {
+        "type": "red",
+        "text": "Challenge their assumptions"
+    },
+    {
+        "type": "red",
+        "text": "If it walked out the door, would they care?"
+    },
+    {
+        "type": "red",
+        "text": "Context: operational, process, level of access, background noise"
+    },
+    {
+        "type": "red",
+        "text": "Risk. Reward. Trade one, get one"
+    },
+    {
+        "type": "red",
+        "text": "The community has the answer"
+    },
+    {
+        "type": "red",
+        "text": "Take it back to the forge"
+    },
+    {
+        "type": "red",
+        "text": "It doesn't have to be perfect"
+    },
+    {
+        "type": "blue",
+        "text": "Google something"
+    },
+    {
+        "type": "blue",
+        "text": "How did they communicate?"
+    },
+    {
+        "type": "blue",
+        "text": "Zoom out\u2014is it normal?"
+    },
+    {
+        "type": "blue",
+        "text": "Logs logs logs logs logs"
+    },
+    {
+        "type": "blue",
+        "text": "Talk to the system builder"
+    },
+    {
+        "type": "blue",
+        "text": "Verify policy"
+    },
+    {
+        "type": "blue",
+        "text": "From the outside in"
+    },
+    {
+        "type": "blue",
+        "text": "Expose blindspots"
+    },
+    {
+        "type": "blue",
+        "text": "Normal children of normal parents"
+    },
+    {
+        "type": "blue",
+        "text": "What happened before that?"
+    }
+]
