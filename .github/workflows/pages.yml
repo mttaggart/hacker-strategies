@@ -1,4 +1,4 @@
-name: NodeJS with Webpack
+name: GitHub Pages build with Vite
 
 on:
   push:
