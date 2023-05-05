@@ -1,5 +1,3 @@
-import { Card } from "../types"
-
 interface CardButtonProps {
     cardType: string,
     label: string,

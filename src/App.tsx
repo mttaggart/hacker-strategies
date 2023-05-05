@@ -16,7 +16,7 @@ async function getCard(cards: [Card], cardType: string): Promise<Card> {
 }
 
 function App() {
-  const [cards, setCards] = useState(async () => {
+  const [cards, _setCards] = useState(async () => {
     const data = await fetch(CARD_URL);
     return data.json(); 
   });
