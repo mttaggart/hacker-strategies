@@ -1,3 +1,5 @@
+# THIS REPO HAS BEEN ARCHIVED AND MIGRATED TO [CODEBERG](https://codeberg.org/mttaggart/hacker-strategies)
+
 # Hacker Strategies
 
 Inspired by Brian Eno's [Oblique Strategies](https://en.wikipedia.org/wiki/Oblique_Strategies), this is a collection of strategies for information security professionals. We all get stuck sometimes. When you're in a jam, using these strategies to attack a problem from a different angle can be the breakthrough you're looking for.
